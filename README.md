@@ -14,32 +14,28 @@ Ini merupakan proyek pembuatan CRUD sederhana dari data mahasiswa menggunakan PH
 Buat database dengan nama database : "db_akademik"
 contoh sintax :
 ## 
-**
-CREATE TABLE `mahasiswa` (
+**CREATE TABLE `mahasiswa` (
   `id`  INT AUTO_INCREMENT PRIMARY KEY,
   `nama` varchar(100) NOT NULL,
   `alamat` text NOT NULL,
   `usia` varchar(2) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-**
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;**
+
 ##
 Menambahkan dummy data : 
-**
-INSERT INTO `mahasiswa` ( `nama`,  `alamat`, `usia`) VALUES
+**INSERT INTO `mahasiswa` ( `nama`,  `alamat`, `usia`) VALUES
 ('Bayu Rizki Madani', 'jl. Soetoyo S Gg. H Muchran no3', '20'),
 ('dimas furqon', 'jln dahlia', '30'),
 ('Muhammad Ramadhan',  'jln mantuil komp wengga no 12', '25');
-COMMIT;
-**
+COMMIT;**
 
 ##
 
 2. **Akses URL**
 
 Penggunaan url yang ada di local dengan mengubah sesuai tempat lokasi dokumen agar tampil, URL yang digunakan : 
-**
-http://localhost/Test_DataMahasiswa/TestProgramingPHP/data_mahasiswa.php
-**
+**http://localhost/Test_DataMahasiswa/TestProgramingPHP/data_mahasiswa.php**
+
 Dapat diubah sesuai kebutuhan.
 
 
