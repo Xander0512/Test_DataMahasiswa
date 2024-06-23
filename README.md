@@ -22,7 +22,8 @@ Ini merupakan proyek pembuatan CRUD sederhana dari data mahasiswa menggunakan PH
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;**
 
 ##
-- **Menambahkan dummy data :** 
+- **Menambahkan dummy data :**
+##
 **INSERT INTO `mahasiswa` ( `nama`,  `alamat`, `usia`) VALUES**
 **('Alex Sander', 'jl.Rangkea Sipagagan', '23'),**
 **('Albertus', 'jln dahlia', '30'),**
